@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOLT TEE — Premium T-shirtlar</title>
+<meta name="description" content="VOLT TEE — 100% paxta, premium oversize T-shirtlar. Toshkent bo'ylab tez yetkazib berish.">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+  <div class="loader-logo"><span>V</span><span>O</span><span>L</span><span>T</span></div>
+  <div class="loader-bar"><i></i></div>
+</div>
+
+<div class="cursor" id="cursor"></div>
+
+<div class="topbar">
+  <div class="marquee"><div class="marquee-track">
+    <span>500 000 so'mdan yuqori buyurtmaga BEPUL yetkazish</span><span>★</span><span>Yangi kolleksiya: ORBIT DROP</span><span>★</span><span>Promo kod: VOLT10 — 10% chegirma</span><span>★</span>
+    <span>500 000 so'mdan yuqori buyurtmaga BEPUL yetkazish</span><span>★</span><span>Yangi kolleksiya: ORBIT DROP</span><span>★</span><span>Promo kod: VOLT10 — 10% chegirma</span><span>★</span>
+  </div></div>
+</div>
+
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="#home" class="logo"><img src="icon.svg" alt="VOLT"> VOLT<b>TEE</b></a>
+    <nav class="menu" id="menu">
+      <a href="#home" class="active">Bosh sahifa</a>
+      <a href="#shop">Do'kon</a>
+      <a href="#features">Afzalliklar</a>
+      <a href="#sizes">O'lchamlar</a>
+      <a href="#reviews">Fikrlar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Qidirish">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn" id="favBtn" aria-label="Sevimlilar">
+        <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+        <span class="badge" id="favCount">0</span>
+      </button>
+      <button class="icon-btn" id="cartBtn" aria-label="Savat">
+        <svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="badge" id="cartCount">0</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Menyu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="search-bar" id="searchBar">
+    <div class="container"><input type="text" id="searchInput" placeholder="T-shirt nomini yozing..."></div>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="tag reveal">● Yangi kolleksiya 2026</span>
+      <h1 class="hero-title">
+        <span class="line"><span>KIY.</span></span>
+        <span class="line"><span class="outline">AJRALIB</span></span>
+        <span class="line"><span>TUR<em>.</em></span></span>
+      </h1>
+      <p class="reveal">100% premium paxtadan tikilgan oversize T-shirtlar. Ko'chaga chiq — o'z uslubingni ko'rsat.</p>
+      <div class="hero-btns reveal">
+        <a href="#shop" class="btn btn-primary">Xarid qilish <span>→</span></a>
+        <button class="btn btn-ghost" id="videoBtn">▶ Lookbook</button>
+      </div>
+      <div class="stats reveal">
+        <div><b class="counter" data-target="12000">0</b><span>Mamnun mijoz</span></div>
+        <div><b class="counter" data-target="48">0</b><span>Dizayn</span></div>
+        <div><b class="counter" data-target="99">0</b><span>% Sifat</span></div>
+      </div>
+    </div>
+    <div class="hero-img reveal">
+      <div class="img-frame" id="tilt">
+        <img src="hero.jpg" alt="VOLT T-shirt kiygan model">
+        <div class="float-card fc1"><b>★ 4.9</b><span>Reyting</span></div>
+        <div class="float-card fc2"><b>-30%</b><span>Bugun</span></div>
+      </div>
+      <div class="spin-badge"><svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><text><textPath href="#circ">PREMIUM • COTTON • STREET • WEAR • </textPath></text></svg><i>★</i></div>
+    </div>
+  </div>
+  <a href="#shop" class="scroll-down"><span></span></a>
+</section>
+
+<section class="brands">
+  <div class="container brands-row">
+    <span>100% PAXTA</span><span>220 GSM</span><span>OVERSIZE FIT</span><span>ECO BO'YOQ</span><span>MADE IN UZ</span>
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Do'kon</span>
+      <h2>Eng mashhur <em>T-shirtlar</em></h2>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="filter active" data-filter="all">Hammasi</button>
+      <button class="filter" data-filter="basic">Basic</button>
+      <button class="filter" data-filter="graphic">Graphic</button>
+      <button class="filter" data-filter="sale">Chegirma</button>
+    </div>
+    <div class="products" id="products"></div>
+    <p class="empty" id="empty">Hech narsa topilmadi 😕</p>
+  </div>
+</section>
+
+<section class="banner">
+  <div class="container banner-grid">
+    <div class="banner-img reveal"><img src="favicon.jpg" alt="Orbit graphic T-shirt"></div>
+    <div class="banner-text reveal">
+      <span class="tag">Limited drop</span>
+      <h2>ORBIT <em>DROP</em></h2>
+      <p>Faqat 300 dona. Qo'lda chizilgan grafika, yuvilganda ham o'chmaydigan bo'yoq. Tugashidan oldin ulgur!</p>
+      <div class="timer" id="timer">
+        <div><b id="d">00</b><span>Kun</span></div>
+        <div><b id="h">00</b><span>Soat</span></div>
+        <div><b id="m">00</b><span>Daqiqa</span></div>
+        <div><b id="s">00</b><span>Soniya</span></div>
+      </div>
+      <button class="btn btn-primary" data-quick="2">Hozir buyurtma ber <span>→</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Nega biz?</span>
+      <h2>Sifat — <em>bizning qoidamiz</em></h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature reveal"><div class="f-icon">🧵</div><h3>Premium paxta</h3><p>220 GSM og'ir paxta — yumshoq, qalin va uzoq xizmat qiladi.</p></div>
+      <div class="feature reveal"><div class="f-icon">🚚</div><h3>Tez yetkazish</h3><p>Toshkent bo'ylab 24 soat, viloyatlarga 2–3 kunda.</p></div>
+      <div class="feature reveal"><div class="f-icon">↺</div><h3>14 kun qaytarish</h3><p>Yoqmadimi? 14 kun ichida pulingizni qaytaramiz.</p></div>
+      <div class="feature reveal"><div class="f-icon">🎨</div><h3>Eksklyuziv dizayn</h3><p>Har bir grafika mahalliy rassomlar bilan yaratilgan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sizes" id="sizes">
+  <div class="container sizes-grid">
+    <div class="reveal">
+      <span class="tag">O'lcham jadvali</span>
+      <h2>O'z <em>o'lchamingni</em> top</h2>
+      <p class="muted">Bo'y va vazningizni kiriting — biz sizga mos o'lchamni tavsiya qilamiz.</p>
+      <form class="size-calc" id="sizeCalc">
+        <label>Bo'y (sm)<input type="number" id="height" min="140" max="220" placeholder="175" required></label>
+        <label>Vazn (kg)<input type="number" id="weight" min="35" max="160" placeholder="70" required></label>
+        <button class="btn btn-primary" type="submit">Hisoblash</button>
+      </form>
+      <div class="size-result" id="sizeResult"></div>
+    </div>
+    <div class="table-wrap reveal">
+      <table>
+        <thead><tr><th>O'lcham</th><th>Ko'krak</th><th>Uzunlik</th><th>Yeng</th></tr></thead>
+        <tbody>
+          <tr data-size="S"><td>S</td><td>104</td><td>70</td><td>22</td></tr>
+          <tr data-size="M"><td>M</td><td>110</td><td>72</td><td>23</td></tr>
+          <tr data-size="L"><td>L</td><td>116</td><td>74</td><td>24</td></tr>
+          <tr data-size="XL"><td>XL</td><td>122</td><td>76</td><td>25</td></tr>
+          <tr data-size="XXL"><td>XXL</td><td>128</td><td>78</td><td>26</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Mijozlar fikri</span>
+      <h2>Ular <em>allaqachon</em> kiyishmoqda</h2>
+    </div>
+    <div class="slider reveal">
+      <div class="slides" id="slides">
+        <div class="slide"><p>"Mato juda qalin va yumshoq. 10 marta yuvdim — rangi ham, shakli ham o'zgarmadi!"</p><div class="author"><i>A</i><div><b>Aziz R.</b><span>Toshkent</span></div></div></div>
+        <div class="slide"><p>"Orbit dizayni zo'r chiqdi, ko'chada hamma so'rayapti qayerdan olding deb."</p><div class="author"><i>M</i><div><b>Madina K.</b><span>Samarqand</span></div></div></div>
+        <div class="slide"><p>"Ertalab buyurtma berdim, kechqurun uyimda edi. Xizmat 10/10."</p><div class="author"><i>J</i><div><b>Jasur T.</b><span>Toshkent</span></div></div></div>
+      </div>
+      <div class="slider-ctrl">
+        <button class="round" id="prev">←</button>
+        <div class="dots" id="dots"></div>
+        <button class="round" id="next">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container faq-wrap">
+    <div class="section-head reveal"><span class="tag">FAQ</span><h2>Ko'p beriladigan <em>savollar</em></h2></div>
+    <div class="acc reveal">
+      <div class="acc-item"><button class="acc-q">Yetkazib berish qancha turadi? <span>+</span></button><div class="acc-a"><p>Toshkent ichida 25 000 so'm, 500 000 so'mdan yuqori buyurtmalarga bepul.</p></div></div>
+      <div class="acc-item"><button class="acc-q">Qanday to'lash mumkin? <span>+</span></button><div class="acc-a"><p>Click, Payme, Uzum yoki kuryerga naqd pul bilan.</p></div></div>
+      <div class="acc-item"><button class="acc-q">O'lcham to'g'ri kelmasa nima qilaman? <span>+</span></button><div class="acc-a"><p>14 kun ichida bepul almashtirib beramiz.</p></div></div>
+      <div class="acc-item"><button class="acc-q">Qanday yuvish kerak? <span>+</span></button><div class="acc-a"><p>30°C da teskari qilib yuving, quritgichda quritmang.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container news-box reveal">
+    <h2>-10% birinchi buyurtmaga</h2>
+    <p>Yangi droplar haqida birinchi bo'lib bil.</p>
+    <form id="newsForm"><input type="email" id="newsEmail" placeholder="Email manzilingiz" required><button class="btn btn-dark" type="submit">Obuna bo'lish</button></form>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <span class="tag">Aloqa</span>
+      <h2>Savolingiz <em>bormi?</em></h2>
+      <ul class="info">
+        <li><b>Manzil</b>Toshkent, Amir Temur ko'chasi 15</li>
+        <li><b>Telefon</b><a href="tel:+998901234567">+998 90 123 45 67</a></li>
+        <li><b>Email</b><a href="mailto:hello@volttee.uz">hello@volttee.uz</a></li>
+        <li><b>Ish vaqti</b>Har kuni 10:00 — 21:00</li>
+      </ul>
+    </div>
+    <form class="contact-form reveal" id="contactForm">
+      <input type="text" id="cName" placeholder="Ismingiz" required>
+      <input type="tel" id="cPhone" placeholder="+998 __ ___ __ __" required>
+      <textarea id="cMsg" rows="5" placeholder="Xabaringiz" required></textarea>
+      <button class="btn btn-primary" type="submit">Yuborish <span>→</span></button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div><a href="#home" class="logo"><img src="favicon.svg" alt="VOLT"> VOLT<b>TEE</b></a><p class="muted">Ko'cha uslubi. O'zbekistonda yaratilgan.</p></div>
+    <div><h4>Do'kon</h4><a href="#shop">Basic</a><a href="#shop">Graphic</a><a href="#shop">Chegirma</a></div>
+    <div><h4>Yordam</h4><a href="#sizes">O'lchamlar</a><a href="#contact">Aloqa</a><a href="#reviews">Fikrlar</a></div>
+    <div><h4>Ijtimoiy</h4><a href="https://instagram.com" target="_blank">Instagram</a><a href="https://t.me" target="_blank">Telegram</a><a href="https://tiktok.com" target="_blank">TikTok</a></div>
+  </div>
+  <div class="container copy">© <span id="year"></span> VOLT TEE. Barcha huquqlar himoyalangan.</div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Yuqoriga">↑</button>
+
+<div class="overlay" id="overlay"></div>
+
+<aside class="cart" id="cart">
+  <div class="cart-head"><h3>Savat</h3><button class="close" id="closeCart">✕</button></div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="promo"><input type="text" id="promoInput" placeholder="Promo kod"><button class="btn btn-ghost sm" id="promoBtn">OK</button></div>
+    <div class="row"><span>Jami:</span><b id="cartTotal">0 so'm</b></div>
+    <button class="btn btn-primary full" id="checkoutBtn">Buyurtma berish</button>
+  </div>
+</aside>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="close" id="closeModal">✕</button>
+    <div class="modal-img"><img id="mImg" src="" alt=""></div>
+    <div class="modal-body">
+      <span class="tag" id="mCat"></span>
+      <h3 id="mName"></h3>
+      <div class="price" id="mPrice"></div>
+      <p class="muted" id="mDesc"></p>
+      <h5>O'lcham</h5>
+      <div class="size-opts" id="mSizes"></div>
+      <h5>Soni</h5>
+      <div class="qty"><button id="qMinus">−</button><span id="qVal">1</span><button id="qPlus">+</button></div>
+      <button class="btn btn-primary full" id="mAdd">Savatga qo'shish</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="videoModal">
+  <div class="modal-box video-box">
+    <button class="close" id="closeVideo">✕</button>
+    <div class="lookbook">
+      <img src="hero.jpg" alt=""><img src="favicon.jpg" alt=""><img src="tee-white.jpg" alt=""><img src="tee-olive.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
